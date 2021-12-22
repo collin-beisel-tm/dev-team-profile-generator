@@ -1,9 +1,29 @@
 # Dev-Team-Profile-Generator
+
  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
-![App Screenshot](https://github.com/collin-beisel-tm/dev-team-profile-generator/blob/main/assets/images/app-screenshot.PNG)
+ ## Table of Contents
+  * [Links](#links)
+  * [Description](#app-descriptino)
+  * [Technologies Used](#technologies-used)
+  * [Why I Built](#why-did-i-build-this-project)
+  * [What I learned](#what-did-i-learn)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#tests)
+  * [User Story](#User-Story)
+  * [Acceptance Criteria](#acceptance-criteria)
 
+![App Terminal Screenshot](https://github.com/collin-beisel-tm/dev-team-profile-generator/blob/main/assets/images/terminal-screenshot.PNG)
+![App Terminal Screenshot](https://github.com/collin-beisel-tm/dev-team-profile-generator/blob/main/assets/images/browser-screenshot.PNG)
+
+## Links
+ - Github Repo:https://github.com/collin-beisel-tm/dev-team-profile-generator/
+ - Application Demo Video:
 ## App Description
+
+The Team Profile Generator is a Node.js app that allows users to easily generate an HTML file containing cards for each member on their team with their employee information (name, role, id, email, office number, github profile, and university if they are a student). This assignment is part of the Southern Methodist University Full-Stack Web Development Bootcamp
 
 ## Technologies used
 - HTML
@@ -16,16 +36,19 @@
 - Git/GitHub
 
 ## Why did I build this project?
-
+I built this project as a bootcamp assignment. 
 
 ## What did I learn?
+This project tought me how to build an app using Test Driven Development with Jest.js. It also taught me how to take advantage of Inquirer.js for terminal user interactivity, and gave me some more practice using the FS node module.
 
-
-## How to install this application
-
-
-## How to use this application
-
+## Installation
+ - clone this repository from github
+  - open your ternimal and change directories into this application
+  - run "npm install"
+  - run "node index"
+  - answer all questions when prompted
+  - navigate to the dist folder and find the newly generated HTML file
+  - Open HTML file in your default browser
 ## license
 MIT License
 
