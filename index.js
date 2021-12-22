@@ -51,7 +51,7 @@ async function questions() {
         return inquirer
             .prompt([{
                 type: 'text',
-                name: 'office',
+                name: 'officeNumber',
                 message: "What is the Manager's office number?"
             },
             {
@@ -61,8 +61,8 @@ async function questions() {
                 default: false
             }])
             //then push the content from the manager array to a new Manager class instance filling in the respective methods
-            .then(({ office, anotherEntry }) => {
-                manager.push(new Manager(employee, id, email, office));
+            .then(({ officeNumber, anotherEntry }) => {
+                manager.push(new Manager(employee, id, email, officeNumber));
 
                 if (anotherEntry) {
                     return questions();

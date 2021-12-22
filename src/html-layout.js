@@ -11,7 +11,7 @@ const printProfiles= data => {
             <h4>Manager<h4>
             <p>ID: ${data.id}</p>
             <p>Email: <a href="mailto:${data.email}">${data.email}</a></p>
-            <p>Office Number: ${data.office}</p>
+            <p>Office Number: ${data.officeNumber}</p>
         </div>
         `
         return managerHtml
