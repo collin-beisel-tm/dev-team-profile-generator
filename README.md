@@ -20,10 +20,10 @@
 
 ## Links
  - Github Repo:https://github.com/collin-beisel-tm/dev-team-profile-generator/
- - Application Demo Video:
+ - Application Demo Video: https://drive.google.com/file/d/153rPRO0NIhiIPM7Xqd6QFv6p2o4BbGTy/view?usp=sharing
 ## App Description
 
-The Team Profile Generator is a Node.js app that allows users to easily generate an HTML file containing cards for each member on their team with their employee information (name, role, id, email, office number, github profile, and university if they are a student). This assignment is part of the Southern Methodist University Full-Stack Web Development Bootcamp
+The Team Profile Generator is a Node.js app that allows users to easily generate an HTML file containing cards for each member on their team with their employee information (name, role, id, email, office number, github profile, and university if they are a student). This assignment is part of the Southern Methodist University Full-Stack Web Development Bootcamp.
 
 ## Technologies used
 - HTML
